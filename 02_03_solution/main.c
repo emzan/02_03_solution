@@ -1,15 +1,14 @@
-//
-//  main.c
-//  02_03_solution
-//
-//  Created by George Martinson on 04/03/2018.
-//  Copyright © 2018 kuangchi. All rights reserved.
-//
-
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(int argc, const char * argv[])
+{
+    if( argc < 2)
+    {
+        puts("Please specify a filename");
+        return (1);
+    }
+    
+    printf("I will examine file %s\n",argv[1]);
+    
     return 0;
 }
