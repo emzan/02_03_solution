@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F618DC2A204BAF12003BFEEA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F618DC29204BAF12003BFEEA /* main.c */; };
+		F618DC2A204BAF12003BFEEA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F618DC29204BAF12003BFEEA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F618DC26204BAF12003BFEEA /* 02_03_solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02_03_solution; sourceTree = BUILT_PRODUCTS_DIR; };
-		F618DC29204BAF12003BFEEA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F618DC26204BAF12003BFEEA /* Solution_Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Solution_Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		F618DC29204BAF12003BFEEA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 		F618DC27204BAF12003BFEEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F618DC26204BAF12003BFEEA /* 02_03_solution */,
+				F618DC26204BAF12003BFEEA /* Solution_Cpp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 		F618DC28204BAF12003BFEEA /* 02_03_solution */ = {
 			isa = PBXGroup;
 			children = (
-				F618DC29204BAF12003BFEEA /* main.c */,
+				F618DC29204BAF12003BFEEA /* main.cpp */,
 			);
 			path = 02_03_solution;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F618DC25204BAF12003BFEEA /* 02_03_solution */ = {
+		F618DC25204BAF12003BFEEA /* Solution_Cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F618DC2D204BAF12003BFEEA /* Build configuration list for PBXNativeTarget "02_03_solution" */;
+			buildConfigurationList = F618DC2D204BAF12003BFEEA /* Build configuration list for PBXNativeTarget "Solution_Cpp" */;
 			buildPhases = (
 				F618DC22204BAF12003BFEEA /* Sources */,
 				F618DC23204BAF12003BFEEA /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = 02_03_solution;
+			name = Solution_Cpp;
 			productName = 02_03_solution;
-			productReference = F618DC26204BAF12003BFEEA /* 02_03_solution */;
+			productReference = F618DC26204BAF12003BFEEA /* Solution_Cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F618DC21204BAF12003BFEEA /* Build configuration list for PBXProject "02_03_solution" */;
+			buildConfigurationList = F618DC21204BAF12003BFEEA /* Build configuration list for PBXProject "Solution_Cpp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F618DC25204BAF12003BFEEA /* 02_03_solution */,
+				F618DC25204BAF12003BFEEA /* Solution_Cpp */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F618DC2A204BAF12003BFEEA /* main.c in Sources */,
+				F618DC2A204BAF12003BFEEA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +248,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F618DC21204BAF12003BFEEA /* Build configuration list for PBXProject "02_03_solution" */ = {
+		F618DC21204BAF12003BFEEA /* Build configuration list for PBXProject "Solution_Cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F618DC2B204BAF12003BFEEA /* Debug */,
@@ -257,7 +257,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F618DC2D204BAF12003BFEEA /* Build configuration list for PBXNativeTarget "02_03_solution" */ = {
+		F618DC2D204BAF12003BFEEA /* Build configuration list for PBXNativeTarget "Solution_Cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F618DC2E204BAF12003BFEEA /* Debug */,
