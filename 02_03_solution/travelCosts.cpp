@@ -1,4 +1,4 @@
-
+/*
 
 #include <iostream>
 
@@ -50,3 +50,4 @@ double calculateCharges(double m, double l)
 {
     return m + l;
 }
+*/
