@@ -1,3 +1,5 @@
+/*
+
 #include <iostream>
 
 void addfive(int a, int b)
@@ -18,3 +20,4 @@ int main()
     std::cin.get();
 }
 //finalmenteci siamoriusciti!
+*/
