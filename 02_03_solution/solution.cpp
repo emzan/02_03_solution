@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -22,3 +22,4 @@ int main()
     std::cout << seasons[2] << std::endl;
     std::cout << seasons[3] << std::endl;
 }
+*/
