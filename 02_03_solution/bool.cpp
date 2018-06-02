@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -30,3 +30,4 @@ bool guess(int num)
         std::cout << "Too low" << std::endl;
     return false;
 }
+*/
