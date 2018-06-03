@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include "Movie.h"
 
@@ -42,3 +42,4 @@ int main()
     std::cout << "\nIt was released in: " << movie3.getYear() << "\n";
     std::cout << "It was rated: " << movie3.getRating() << std::endl << std::endl;
 }
+*/
