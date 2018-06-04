@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 
 
@@ -16,7 +16,7 @@ int main()
     std::cout << "Johns acct number: " << JohnsAcct <<" is at: " << acctPtr<<std::endl;
     std::cout << "acctPtr points at this value: *acctPtr: "<<*acctPtr<<std::endl;
     std::cout << "Remember: the place in memory of the acctPtr is also called '&JohnsAcct': "<<acctPtr<<std::endl;
-/*
+
     //another example
     std::cout<<std::endl<<"Next example,declares num = 95:"<<std::endl;
     int num = 95;
@@ -47,6 +47,7 @@ int main()
     std::cout<<"\nadd 25 to letter:"<<std::endl;
     *letterPtr += 25; //letter value is now Z
     std::cout<<"Letter is now: "<<letter<<std::endl;
-  */
+  
     std::cin.get();
 }
+*/

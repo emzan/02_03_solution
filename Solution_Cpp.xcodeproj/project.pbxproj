@@ -20,6 +20,7 @@
 		F62EA5F720C2D33D002B21EB /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5F520C2D33D002B21EB /* Movie.cpp */; };
 		F62EA5F920C2D4A6002B21EB /* favoriteMovies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5F820C2D4A6002B21EB /* favoriteMovies.cpp */; };
 		F62EA5FB20C4AF2D002B21EB /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FA20C4AF2D002B21EB /* pointers.cpp */; };
+		F62EA5FD20C4EECC002B21EB /* houses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FC20C4EECC002B21EB /* houses.cpp */; };
 		F6FF1FEB20C2B707001D4E2B /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FF1FEA20C2B707001D4E2B /* solution.cpp */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		F62EA5F620C2D33D002B21EB /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		F62EA5F820C2D4A6002B21EB /* favoriteMovies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = favoriteMovies.cpp; sourceTree = "<group>"; };
 		F62EA5FA20C4AF2D002B21EB /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
+		F62EA5FC20C4EECC002B21EB /* houses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = houses.cpp; sourceTree = "<group>"; };
 		F6FF1FEA20C2B707001D4E2B /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				F62EA5F520C2D33D002B21EB /* Movie.cpp */,
 				F62EA5F820C2D4A6002B21EB /* favoriteMovies.cpp */,
 				F62EA5FA20C4AF2D002B21EB /* pointers.cpp */,
+				F62EA5FC20C4EECC002B21EB /* houses.cpp */,
 			);
 			path = 02_03_solution;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				F629A89F20C2BCC600DAC4BF /* callbyreference.cpp in Sources */,
 				F62EA5F420C2D22D002B21EB /* House.cpp in Sources */,
 				F62EA5F720C2D33D002B21EB /* Movie.cpp in Sources */,
+				F62EA5FD20C4EECC002B21EB /* houses.cpp in Sources */,
 				F629A8A920C2C02700DAC4BF /* expressions.cpp in Sources */,
 				F629A8A320C2BE6500DAC4BF /* dataType.cpp in Sources */,
 				F629A89D20C2BB2E00DAC4BF /* bool.cpp in Sources */,

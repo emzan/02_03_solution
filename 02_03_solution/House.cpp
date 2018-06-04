@@ -1,7 +1,7 @@
-/*
+
 #include "House.h"
 #include <iostream>
-using namespace std;
+//using namespace std;
 House::House()
 {
     houseColor = "blue";
@@ -9,7 +9,7 @@ House::House()
     numBedrooms = 3;
     squareFeet = 1200;
 }
-House::House(string color, int numBath, int numBed, double sqft)
+House::House(std::string color, int numBath, int numBed, double sqft)
 {
     houseColor = color;
     numBathrooms = numBath;
@@ -19,7 +19,7 @@ House::House(string color, int numBath, int numBed, double sqft)
 House::~House()
 {
 }
-string House::getColor()
+std::string House::getColor()
 {
     return houseColor;
 }
@@ -35,7 +35,7 @@ double House::getSqft()
 {
     return squareFeet;
 }
-void House::setColor(string c)
+void House::setColor(std::string c)
 {
     houseColor = c;
 }
@@ -51,4 +51,4 @@ void House::setSqft(double sqft)
 {
     squareFeet = sqft;
 }
-*/
+
