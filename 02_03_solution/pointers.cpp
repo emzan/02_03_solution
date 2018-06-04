@@ -5,7 +5,7 @@
 
 
 
-using namespace std;
+//using namespace std;
 
 int main()
 {
@@ -13,39 +13,40 @@ int main()
     int JohnsAcct = 12345;
     int* acctPtr = &JohnsAcct;
     
-    cout << "Johns acct number: " << JohnsAcct <<" is at: " << acctPtr<<endl;
-    cout << "acctPtr points at this value: *acctPtr:"<<*acctPtr<<endl;
+    std::cout << "Johns acct number: " << JohnsAcct <<" is at: " << acctPtr<<std::endl;
+    std::cout << "acctPtr points at this value: *acctPtr: "<<*acctPtr<<std::endl;
+    std::cout << "Remember: the place in memory of the acctPtr is also called '&JohnsAcct': "<<acctPtr<<std::endl;
 /*
     //another example
-    cout<<endl<<"Next example,declares num = 95:"<<endl;
+    std::cout<<std::endl<<"Next example,declares num = 95:"<<std::endl;
     int num = 95;
-    cout<<"Address to find num value"<<&num<<endl;
-    cout<<"size of num value based on datatype: "<<sizeof(num)<<endl;
-    cout<<"value at this location: "<<num<<endl;
+    std::cout<<"Address to find num value: "<<&num<<std::endl;
+    std::cout<<"size of num value based on datatype: "<<sizeof(num)<<std::endl;
+    std::cout<<"value at this location: "<<num<<std::endl;
     
-    cout<<endl<<"Next example, add numPtr:"<<endl;
+    std::cout<<std::endl<<"Next example, add numPtr:"<<std::endl;
     //let's add a pointer to hold the address of  num
     int* numPtr = &num;
     
     //let's change the value of num using the pointer
-    cout<<"add 5 to num using the pointer and not the variable:"<<endl;
+    std::cout<<"add 5 to num using the pointer and not the variable:"<<std::endl;
     *numPtr += 5; // num value is now 100
-    cout<<"Num is now: "<<num<<endl;
-    cout<<"Num location is still the same: "<<&num<<endl;
-    cout<<"Value of numPtr is: "<<numPtr<<endl;
+    std::cout<<"Num is now: "<<num<<std::endl;
+    std::cout<<"Num location is still the same: "<<&num<<std::endl;
+    std::cout<<"Value of numPtr is: "<<*numPtr<<std::endl;
     
-    cout<<endl<<"Next example, using characters"<<endl;
+    std::cout<<std::endl<<"Next example, using characters"<<std::endl;
     char letter = 'A';
-    cout<<"size of letter value using datatype: "<<sizeof(letter)<<endl;
+    std::cout<<"size of letter value using datatype: "<<sizeof(letter)<<std::endl;
     
-    cout<<"value at this location: "<<letter<<endl;
+    std::cout<<"value at this location: "<<letter<<std::endl;
     //let's add a pointer to hold the address of letter
     char* letterPtr = &letter;
     
     // let's change the value of letter using the pointer
-    cout<<"\nadd 25 to letter:"<<endl;
+    std::cout<<"\nadd 25 to letter:"<<std::endl;
     *letterPtr += 25; //letter value is now Z
-    cout<<"Letter is now: "<<letter<<endl;
-    */
-    return 0;
+    std::cout<<"Letter is now: "<<letter<<std::endl;
+  */
+    std::cin.get();
 }
