@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -79,7 +79,7 @@ bool search(int numbers[], int size, int value)
         {
             found = false;
         }
-        <#statements#>
     }
     return 0;
 }
+*/

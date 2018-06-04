@@ -23,6 +23,7 @@
 		F62EA5FD20C4EECC002B21EB /* houses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FC20C4EECC002B21EB /* houses.cpp */; };
 		F62EA5FF20C4F2FC002B21EB /* vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FE20C4F2FC002B21EB /* vectors.cpp */; };
 		F62EA60120C50227002B21EB /* binarysearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA60020C50227002B21EB /* binarysearch.cpp */; };
+		F62EA60320C5434D002B21EB /* fortuneTeller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA60220C5434D002B21EB /* fortuneTeller.cpp */; };
 		F6FF1FEB20C2B707001D4E2B /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FF1FEA20C2B707001D4E2B /* solution.cpp */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		F62EA5FC20C4EECC002B21EB /* houses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = houses.cpp; sourceTree = "<group>"; };
 		F62EA5FE20C4F2FC002B21EB /* vectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vectors.cpp; sourceTree = "<group>"; };
 		F62EA60020C50227002B21EB /* binarysearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarysearch.cpp; sourceTree = "<group>"; };
+		F62EA60220C5434D002B21EB /* fortuneTeller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fortuneTeller.cpp; sourceTree = "<group>"; };
+		F62EA60420C54A0E002B21EB /* replies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = replies.txt; sourceTree = "<group>"; };
 		F6FF1FEA20C2B707001D4E2B /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +113,8 @@
 				F62EA5FC20C4EECC002B21EB /* houses.cpp */,
 				F62EA5FE20C4F2FC002B21EB /* vectors.cpp */,
 				F62EA60020C50227002B21EB /* binarysearch.cpp */,
+				F62EA60220C5434D002B21EB /* fortuneTeller.cpp */,
+				F62EA60420C54A0E002B21EB /* replies.txt */,
 			);
 			path = 02_03_solution;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				F62EA5F420C2D22D002B21EB /* House.cpp in Sources */,
 				F62EA5F720C2D33D002B21EB /* Movie.cpp in Sources */,
 				F62EA5FD20C4EECC002B21EB /* houses.cpp in Sources */,
+				F62EA60320C5434D002B21EB /* fortuneTeller.cpp in Sources */,
 				F629A8A920C2C02700DAC4BF /* expressions.cpp in Sources */,
 				F629A8A320C2BE6500DAC4BF /* dataType.cpp in Sources */,
 				F629A89D20C2BB2E00DAC4BF /* bool.cpp in Sources */,
