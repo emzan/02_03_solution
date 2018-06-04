@@ -22,6 +22,7 @@
 		F62EA5FB20C4AF2D002B21EB /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FA20C4AF2D002B21EB /* pointers.cpp */; };
 		F62EA5FD20C4EECC002B21EB /* houses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FC20C4EECC002B21EB /* houses.cpp */; };
 		F62EA5FF20C4F2FC002B21EB /* vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA5FE20C4F2FC002B21EB /* vectors.cpp */; };
+		F62EA60120C50227002B21EB /* binarysearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62EA60020C50227002B21EB /* binarysearch.cpp */; };
 		F6FF1FEB20C2B707001D4E2B /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6FF1FEA20C2B707001D4E2B /* solution.cpp */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		F62EA5FA20C4AF2D002B21EB /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
 		F62EA5FC20C4EECC002B21EB /* houses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = houses.cpp; sourceTree = "<group>"; };
 		F62EA5FE20C4F2FC002B21EB /* vectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vectors.cpp; sourceTree = "<group>"; };
+		F62EA60020C50227002B21EB /* binarysearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarysearch.cpp; sourceTree = "<group>"; };
 		F6FF1FEA20C2B707001D4E2B /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				F62EA5FA20C4AF2D002B21EB /* pointers.cpp */,
 				F62EA5FC20C4EECC002B21EB /* houses.cpp */,
 				F62EA5FE20C4F2FC002B21EB /* vectors.cpp */,
+				F62EA60020C50227002B21EB /* binarysearch.cpp */,
 			);
 			path = 02_03_solution;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F62EA5F920C2D4A6002B21EB /* favoriteMovies.cpp in Sources */,
+				F62EA60120C50227002B21EB /* binarysearch.cpp in Sources */,
 				F629A8A720C2BF8D00DAC4BF /* distance.cpp in Sources */,
 				F62EA5FF20C4F2FC002B21EB /* vectors.cpp in Sources */,
 				F6FF1FEB20C2B707001D4E2B /* solution.cpp in Sources */,

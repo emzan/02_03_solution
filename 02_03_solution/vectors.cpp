@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <vector>
 #include <cstdlib>
@@ -75,3 +75,4 @@ int main()
         std::cout<<"vector num is empty\n";
 
 }
+*/
