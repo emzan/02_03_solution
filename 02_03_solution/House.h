@@ -1,4 +1,4 @@
-
+/*
 
 #ifndef HOUSE_H_
 #define HOUSE_H_
@@ -26,3 +26,4 @@ public:
 };
 #endif
 
+*/

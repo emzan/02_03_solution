@@ -9,7 +9,7 @@
 
 int main()
 {
-    
+ 
     int JohnsAcct = 12345;
     int* acctPtr = &JohnsAcct;
     
@@ -33,8 +33,8 @@ int main()
     *numPtr += 5; // num value is now 100
     std::cout<<"Num is now: "<<num<<std::endl;
     std::cout<<"Num location is still the same: "<<&num<<std::endl;
-    std::cout<<"Value of numPtr is: "<<*numPtr<<std::endl;
-    
+    std::cout<<"Value of numPtr is: "<<num<<std::endl;
+    std::cout<<"Value of numPtr (through pointer) is: "<<*numPtr<<std::endl;
     std::cout<<std::endl<<"Next example, using characters"<<std::endl;
     char letter = 'A';
     std::cout<<"size of letter value using datatype: "<<sizeof(letter)<<std::endl;
@@ -50,4 +50,5 @@ int main()
   
     std::cin.get();
 }
+
 */

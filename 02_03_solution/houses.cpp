@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include "House.h"
 #include <string>
@@ -23,3 +23,4 @@ void printHouse(House house)
     << house.getSqft() << std::endl;
     std::cout << std::endl << std::endl;
 }
+*/
